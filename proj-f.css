@@ -4,17 +4,54 @@
 }
 #titulo{
     font-family: tahoma;
-    color: #215a60;
+    color: white;
     margin-left: 7%;
 }
 #subtitulo{
     font-family: tahoma;
-    color: #215a60;
-    margin-left: 10%;
+    color: white;
+    margin-left: 7%;
 }
 fieldset{
     border: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color: #003247;
+    font-family: tahoma;
+    font-size: 1em;
+    color: white;
+    margin-left: 20%;
+    margin-top: 2%;
+    justify-content: center;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 5em;
+
+}
+.botao{
+    font-size: 1.2em;
+    background: slategray;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 65%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0, 0.2);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
+}
+#check {
+    display: inline-block;
 }
