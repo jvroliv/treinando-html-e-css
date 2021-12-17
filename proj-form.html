@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul suá-Formulário de músicas</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo" ><strong>Olá, esse é um formulário para auxiliar no controle dos nossos repertórios.</strong></h1>
+        <br>
+        <p id="subtitulo">Complete com as informações solicitadas abaixo</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+                <br>     
+            </div>
+            <div class="campo">
+                <label for="período">Período</label>
+                    <select id="período">
+                        <option selected disabled value="">Selecione o período</option>
+                        <option>Manhã</option>
+                        <option>Noite</option>
+                    </select>              
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="instrumentistas">Instrumentistas:</label>
+                <br>
+                <input type="checkbox" id="instrumentista 1" name="instrumentista 1" value="João Vítor - Baixo">
+                <label for="instrumentista 1">João Vítor - Baixo</label>
+                
+                <input type="checkbox" id="instrumentista 2" name="instrumentista 2" value="Thiago - Bateria">
+                <label for="instrumentista 2">Thiago - Bateria</label>
+                
+                <input type="checkbox" id="instrumentista 3" name="instrumentista 3" value="Bernardo - Guitarra">
+                <label for="instrumentista 3">Bernardo - Guitarra</label>
+
+                <input type="checkbox" id="instrumentista 4" name="instrumentista 4" value="Yuri - Violão">
+                <label for="instrumentista 4"> Yuri - Violão</label>
+
+                <input type="checkbox" id="instrumentista 5" name="instrumentista 5" value="Marília - Teclado">
+                <label for="instrumentista 5">Marília - Teclado </label>
+
+                <input type="checkbox" id="instrumentista 6" name="instrumentista 6" value="Heuler - Bateria">
+                <label for="instrumentista 6">Heuler - Bateria</label>
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="Vozes">Vozes:</label>
+                <br>
+                <input type="checkbox" id="Voz 1" name=" Voz 1" value="Thomas - Tenor">
+                <label for="voz 1">Thomas - Tenor</label>
+                
+                <input type="checkbox" id="Voz 2" name=" Voz 2" value="Victor - Tenor/barítono">
+                <label for="voz 2">Victor - Tenor/barítono</label>
+
+                <input type="checkbox" id="Voz 3" name=" Voz 3" value="Giane - Contralto">
+                <label for="voz 3">Giane - Contralto</label>
+
+                <input type="checkbox" id="Voz 4" name=" Voz 4" value="Luana - Contralto/ Soprano">
+                <label for="voz 4">Luana - Contralto/ Soprano</label>
+
+                <input type="checkbox" id="Voz 5" name=" Voz 5" value=" Giovana - Soprano">
+                <label for="voz 5">Giovana - Soprano</label>
+
+                <input type="checkbox" id="Voz 6" name=" Voz 6" value="Fabi - Soprano">
+                <label for="voz 6">Fabi - Soprano</label>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <label>Músicas tocadas:</label>
+            <br>
+            <textarea rows="6" style="width: 26em" id="músicas"></textarea>
+        </div>
+        <br>
+        <button class="botao" type="submit">Registrar</button>
+    </form>
+</body>
+</html>
